@@ -133,3 +133,13 @@ nav a:hover {
     color: #001F3F; 
   }
     
+  #skills-tools, #skills-tools li {
+    color: #001F3F; /* Set the text color to #001F3F for the div and li elements */
+  }
+  #reboot-tools-skils, #reboot-tools-skils h2, #reboot-tools-skils li {
+    color: #001F3F; /* Set the text color to #001F3F for the div, h2, and li elements */
+  }
+  #research, #research h2, #research li {
+    color: #001F3F; /* Set the text color to #001F3F for the div, h2, and li elements */
+  }
+      
