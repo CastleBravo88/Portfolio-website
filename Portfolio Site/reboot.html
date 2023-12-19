@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>My work</title>
     </head>
-    <body>
-        <header>
-            <img src="logo.jpg" alt="Logo">
+    <body id="reboot-body">
+        <header> 
+            <img src="img/logo.svg" alt="Logo">
             <nav>
               <ul>
                 <li><a href="index.html">Work</a></li>
-                <li><a href="reboot.html">ReBoot Project</a></li>
+                <li><a href="reboot.html">Projects</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul> 
             </nav>
         </header>
-        <main>
+        <main id="reboot-main">
             <div>
                 <div>
                     <h1>
@@ -38,6 +38,7 @@
                         selling these products. 
                     </p>
                 </div>
+                <div id="tools-skils">
                     <h2>
                         Skills
                     </h2>
@@ -157,14 +158,18 @@
             </div>
         </main>
         <footer id="contact">
-          <div>
-            <h3>Contact Me</h3>
-            <p>For further inquiries or collaboration opportunities, please feel free to <a href="mailto:bravosiks@icloud.com">Email Me</a></p>
-            <a href="https://www.instagram.com/rafo8891/" target="_blank">
-                <img src="img/insta.svg" alt="Instagram">
-            </a>
-            <p>Copyright © 2023 Rafael Apatov</p>
-        </div>
-        </footer>
+            <div>
+              <h3>Contact Me</h3>
+              <p>For further inquiries or collaboration opportunities, please feel free to 
+                <a href="mailto:bravosiks@icloud.com" class="primary-button">Email me</a>or Call me
+                <a href="tel:+1234567890">Call me: +1 (234) 567-890</a>
+  
+              </p>
+              <a href="https://www.instagram.com/rafo8891/" target="_blank">
+                  <img src="img/insta.svg" alt="Instagram">
+              </a>
+              <p id="copyright">Copyright © 2023 Rafael Apatov</p>
+          </div>
+          </footer>
     </body>
 </html>

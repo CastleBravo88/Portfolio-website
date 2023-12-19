@@ -1,4 +1,135 @@
-img {
-    width: 100%;
+body   {
+    font-family: 'Inter', sans-serif;
+}
+
+.primary-button {
+    background-color: #007AFF;
+    color: white; 
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .secondary-button {
+    background-color: transparent;
+    color: #007AFF; 
+    border: 2px solid #007AFF; 
+    border-radius: 6px; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
   }
   
+  .secondary-button:hover {
+    background-color: rgba(0, 122, 255, 0.1);
+  }  
+  
+  .primary-button:hover {
+    background-color: #0056b3; 
+  }
+
+  @media (max-width: 767px) {
+  }
+
+  img {
+    width: 100%;
+  }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    padding: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    nav ul {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
+
+#copyright {
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 36px; 
+    line-height: 1.5; 
+    font-weight: bold; 
+  }
+  
+  h2 {
+    font-size: 1.5em; 
+    line-height: 1.5; 
+    font-weight: bold; 
+  }
+  
+  h3 {
+    font-size: 1.33em; 
+    line-height: 1.5; 
+    font-weight: bold; 
+  }
+  
+  h4 {
+    font-size: 1.17em; 
+    line-height: 1.5; 
+    font-weight: bold; 
+  }
+
+  p {
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px; 
+  }
+  
+  a[href^="tel:"]:hover {
+    color: #FF0000; 
+  }
+  
+  a[href^="tel:"]:active {
+    color: #008000;
+  }
+      
+  h1, h2, h3, h4, p {
+    color: #001F3F; 
+  }
+    
