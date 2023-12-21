@@ -44,23 +44,6 @@ body   {
     width: 100%;
   }
 
-
-@media (max-width: 767px) {
-    nav ul {
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    nav li {
-        display: inline-block;
-        padding: 5px 10px;
-    }
-
-    nav a {
-        font-size: 16px;
-    }
-}
-
 #copyright {
     font-weight: bold;
   }
@@ -108,13 +91,95 @@ body   {
     color: #001F3F; 
   }
     
-  #skills-tools, #skills-tools li {
-    color: #001F3F; /* Set the text color to #001F3F for the div and li elements */
-  }
-  #reboot-tools-skils, #reboot-tools-skils h2, #reboot-tools-skils li {
-    color: #001F3F; /* Set the text color to #001F3F for the div, h2, and li elements */
-  }
-  #research, #research h2, #research li {
-    color: #001F3F; /* Set the text color to #001F3F for the div, h2, and li elements */
-  }
-      
+  
+
+  
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; 
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+
+ /*start ------------*/
+ width: [object Object]px; 
+ height: [object Object]px; 
+ background: #FFE4C4; 
+ border: solid #BDBDBD 0; 
+ box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4)  ; 
+ -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4)  ; 
+ -moz-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4)  ; 
+ position: relative; 
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+.navigation li a {
+  text-decoration: none; 
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #4a4a4a;
+
+}
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.instalogo {
+  max-width: 50px;
+}
+
+p {
+  text-align: left;
+}
+
+footer p {
+  text-align: center;
+}
+
+#Skills {
+  text-align: left;
+}
+
+#Tools {
+  text-align: left;
+}
+
+#FiveW {
+  text-align: left;
+}
+
+h4 {
+  text-align: left;
+}
