@@ -205,21 +205,21 @@ li {
 
   .container {
       max-width: 1200px;
-      margin: 0 auto; /* Center the container horizontally */
-      overflow: hidden; /* Clear the floated elements inside the container */
-      position: relative; /* Make the container relative for absolute positioning */
+      margin: 0 auto;
+      overflow: hidden; 
+      position: relative;
   }
 
   .logo {
       max-width: 80px;
-      float: left; /* Align the logo to the left */
-      margin-right: 20px; /* Add margin between the logo and navigation */
+      float: left; 
+      margin-right: 20px; 
   }
 
   .navigation {
       position: absolute;
-      bottom: 0; /* Align the navigation to the bottom */
-      right: 0; /* Align the navigation to the right */
+      bottom: 0; 
+      right: 0; 
   }
 
   .navigation ul {
@@ -230,16 +230,16 @@ li {
 
   .navigation li {
       display: inline-block;
-      margin-left: 20px; /* Add margin between menu items */
+      margin-left: 20px; 
   }
 
   .navigation li:first-child {
-      margin-left: 0; /* Remove margin for the first menu item */
+      margin-left: 0;
   }
       hr {
-  margin-top: 20px; /* Add spacing above the line */
-  margin-bottom: 20px; /* Add spacing below the line */
-  border: 1px solid #000; /* Change the line color and style */
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  border: 1px solid #000; 
 }
 
 .col-md-6 {
@@ -296,27 +296,27 @@ margin-top: 4px;
   header {
       background-color: #ffe4c4;
       text-align: center;
-      padding: 20px 0; /* Increase padding */
+      padding: 20px 0;
       position: relative;
   }
 
   .container {
       max-width: 1200px;
-      margin: 0 auto; /* Center the container horizontally */
-      overflow: hidden; /* Clear the floated elements inside the container */
-      position: relative; /* Make the container relative for absolute positioning */
+      margin: 0 auto; 
+      overflow: hidden;
+      position: relative; 
   }
 
   .logo {
-      max-width: 100px; /* Increase logo size */
-      float: left; /* Align the logo to the left */
-      margin-right: 40px; /* Add more margin between the logo and navigation */
+      max-width: 100px; 
+      float: left; 
+      margin-right: 40px; 
   }
 
   .navigation {
       position: absolute;
-      bottom: 0; /* Align the navigation to the bottom */
-      right: 0; /* Align the navigation to the right */
+      bottom: 0; 
+      right: 0;
   }
 
   .navigation ul {
@@ -327,17 +327,17 @@ margin-top: 4px;
 
   .navigation li {
       display: inline-block;
-      margin-left: 40px; /* Add more margin between menu items */
+      margin-left: 40px; 
   }
 
   .navigation li:first-child {
-      margin-left: 0; /* Remove margin for the first menu item */
+      margin-left: 0; 
   }
 
   hr {
-      margin-top: 30px; /* Adjust spacing above the line */
-      margin-bottom: 30px; /* Adjust spacing below the line */
-      border: 2px solid #000; /* Increase the line thickness */
+      margin-top: 30px; 
+      margin-bottom: 30px;
+      border: 2px solid #000; 
   }
 }
 
