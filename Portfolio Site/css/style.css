@@ -203,6 +203,10 @@ li {
       position: relative;
   }
 
+  #profilepic img {
+    width: 50%;
+  }
+
   .container {
       max-width: 1200px;
       margin: 0 auto;
@@ -236,7 +240,8 @@ li {
   .navigation li:first-child {
       margin-left: 0;
   }
-      hr {
+
+  hr {
   margin-top: 20px; 
   margin-bottom: 20px;
   border: 1px solid #000; 
@@ -339,11 +344,22 @@ margin-top: 4px;
       margin-bottom: 30px;
       border: 2px solid #000; 
   }
+
+  .column.col-lg-7 {
+    width: 60%;
+  }
+
+  .column.col-lg-5 {
+    width: 40%;
+  }
+
+  .column.col-md-6.col-lg-7,
+  .column.col-md-6.col-lg-5 {
+    flex: 1;
+  }
 }
 
 
-@media only screen and (min-width: 1440px) {
-}
 
 .container {
   max-width: 1200px;
