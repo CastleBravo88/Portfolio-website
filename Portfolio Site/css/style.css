@@ -2,6 +2,49 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* TEST */
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgb(0, 34, 255);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
+/* TEST */
+
+.logo {
+  max-width: 150px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+
+
+
 .primary-button {
   background-color: #007aff;
   color: white;
@@ -72,6 +115,7 @@ h3 {
   font-size: 1.33em;
   line-height: 1.5;
   font-weight: bold;
+  text-align: center;
 }
 
 h4 {
@@ -116,16 +160,12 @@ p {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 50px;
 }
 
-.container {
-  text-align: center;
-}
 
 header {
   background-color: #ffe4c4;
-  text-align: center;
   padding: 10px 0;
   width: [object Object]px;
   height: [object Object]px;
@@ -134,6 +174,7 @@ header {
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
   position: relative;
+  
 }
 
 nav > ul {
@@ -141,9 +182,7 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
+
 
 .navigation li a {
   text-decoration: none;
@@ -162,6 +201,12 @@ nav > ul > li {
 
 .instalogo {
   max-width: 50px;
+}
+
+.instalogo {
+  max-width: 50px;
+  display: block;
+  margin: auto;
 }
 
 p {
@@ -203,6 +248,18 @@ li {
       position: relative;
   }
 
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
   #profilepic img {
     width: 50%;
   }
@@ -217,7 +274,8 @@ li {
   .logo {
       max-width: 80px;
       float: left; 
-      margin-right: 20px; 
+      margin-right: 20px;
+      max-width: original-size; 
   }
 
   .navigation {

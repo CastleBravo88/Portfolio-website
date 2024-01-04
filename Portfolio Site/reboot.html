@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&display=swap">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>My work</title>
-        <link href="img/smalllogo.svg" rel="shortcut icon">
-    </head>
-    <body id="reboot-body">
-        <header>
-            <div class="container"> 
-                <img class="logo" src="img/logo.svg" alt="Logo">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>My work</title>
+    <link href="img/smalllogo.svg" rel="shortcut icon" />
+    <script src="https://kit.fontawesome.com/032d7465ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="work-body">
+    <header>
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" src="img/logo.svg" alt="Logo" />
                 <nav>
-                  <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul> 
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="reboot.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
+                    </ul>
                 </nav>
             </div>
-        </header>
+        </div>
+    </header>
         <main id="reboot-main">
             <div id="hero">
                 <div class="container">
@@ -160,16 +169,28 @@
         </main>
         <footer id="contact">
             <div class="container">
-              <h3>Contact Me</h3>
-              <p>For further inquiries or collaboration opportunities, please feel free to:</p>
-              <p><a href="mailto:bravosiks@icloud.com" class="primary-button">Email me</a>
-              <p>or</p>
-              <a href="tel:+1234567890">Call me</a></p>
-              <a href="https://www.instagram.com/rafo8891/" target="_blank">
-                <img class="instalogo" src="img/insta.svg" alt="Instagram">
-              </a>
-              <p id="copyright">Copyright © 2023 Rafael Apatov</p>
+                <h3>Contact Me</h3>
+                <p>
+                    For further inquiries or collaboration opportunities, please
+                    feel free to:
+                </p>
+                <p>
+                    <a href="mailto:bravosiks@icloud.com" class="primary-button">Email me</a>
+                </p>
+                <p>or</p>
+                <p><a href="tel:+1234567890">Call me</a></p>
+                <a href="https://www.instagram.com/rafo8891/" target="_blank">
+                    <img class="instalogo" src="img/insta.svg" alt="Instagram" />
+                </a>
+                <p id="copyright">Copyright © 2023 Rafael Apatov</p>
             </div>
-          </footer>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+            </script>
+        <script src="js/scripts.js">
+        </script>
+    
     </body>
-</html>
+    
+    </html>
