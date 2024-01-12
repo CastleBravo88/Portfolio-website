@@ -2,22 +2,21 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* TEST */
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgb(0, 34, 255);
+  border-top: 1px solid rgb(255, 255, 255);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
-/* TEST */
 
 .logo {
   max-width: 150px;
@@ -42,12 +41,15 @@ body {
   display: block;
 }
 
+footer {
+  background-color: #d3d3d3;
+}
 
 
 
 .primary-button {
   background-color: #007aff;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   padding: 10px 20px;
@@ -88,8 +90,7 @@ body {
   opacity: 0.8;
 }
 
-@media (max-width: 767px) {
-}
+@media (max-width: 767px) {}
 
 img {
   width: 100%;
@@ -127,7 +128,7 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -144,7 +145,7 @@ h2,
 h3,
 h4,
 p {
-  color: #001f3f;
+  color: #000000;
 }
 
 .container {
@@ -165,7 +166,7 @@ p {
 
 
 header {
-  background-color: #ffe4c4;
+  background-color: #8f8f8f;
   padding: 10px 0;
   width: [object Object]px;
   height: [object Object]px;
@@ -174,10 +175,12 @@ header {
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
   position: relative;
-  
+
 }
 
-nav > ul {
+
+
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
@@ -189,11 +192,11 @@ nav > ul {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: bolder;
-  color: #4a4a4a;
+  color: #000000;
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -239,16 +242,16 @@ li {
   text-align: left;
 }
 
-  
-  @media only screen and (min-width: 640px) {
+
+@media only screen and (min-width: 640px) {
   header {
-      background-color: #ffe4c4;
-      text-align: center;
-      padding: 10px 0;
-      position: relative;
+    background-color: #8f8f8f;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
   }
 
@@ -265,142 +268,142 @@ li {
   }
 
   .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      overflow: hidden; 
-      position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
   }
 
   .logo {
-      max-width: 80px;
-      float: left; 
-      margin-right: 20px;
-      max-width: original-size; 
+    max-width: 80px;
+    float: left;
+    margin-right: 20px;
+    max-width: original-size;
   }
 
   .navigation {
-      position: absolute;
-      bottom: 0; 
-      right: 0; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .navigation ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .navigation li {
-      display: inline-block;
-      margin-left: 20px; 
+    display: inline-block;
+    margin-left: 20px;
   }
 
   .navigation li:first-child {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   hr {
-  margin-top: 20px; 
-  margin-bottom: 20px;
-  border: 1px solid #000; 
-}
-
-.col-md-6 {
-  width: 50%;
-}
-
-[class*="col-"] {
-  float: left;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.column.col-md-6.col-lg-7 {
-  flex: 1;
-}
-
-.column.col-md-6.col-lg-5 {
-  flex: 1;
-}
-
-.column {
-  margin-right: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-header {
-text-align: unset;
-padding: 20px 0 13px;
-}
-
-nav {
-width: auto;
-float: right;
-margin-top: 4px;
-}
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
   }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .column.col-md-6.col-lg-7 {
+    flex: 1;
+  }
+
+  .column.col-md-6.col-lg-5 {
+    flex: 1;
+  }
+
+  .column {
+    margin-right: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+}
 
 
 @media only screen and (min-width: 1024px) {
   header {
-      background-color: #ffe4c4;
-      text-align: center;
-      padding: 20px 0;
-      position: relative;
+    background-color: #8f8f8f;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
   }
 
   .container {
-      max-width: 1200px;
-      margin: 0 auto; 
-      overflow: hidden;
-      position: relative; 
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
   }
 
   .logo {
-      max-width: 100px; 
-      float: left; 
-      margin-right: 40px; 
+    max-width: 100px;
+    float: left;
+    margin-right: 40px;
   }
 
   .navigation {
-      position: absolute;
-      bottom: 0; 
-      right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .navigation ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .navigation li {
-      display: inline-block;
-      margin-left: 40px; 
+    display: inline-block;
+    margin-left: 40px;
   }
 
   .navigation li:first-child {
-      margin-left: 0; 
+    margin-left: 0;
   }
 
   hr {
-      margin-top: 30px; 
-      margin-bottom: 30px;
-      border: 2px solid #000; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #000;
   }
 
   .column.col-lg-7 {
@@ -426,27 +429,45 @@ margin-top: 4px;
 }
 
 @keyframes color-change {
-0% {fill: #edc655;}
-50% {fill: #fcffad;}
-100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 .sun {
-animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
 }
 
 @keyframes cloud-move {
-from {transform: translate(0,50px);}
-to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
-animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 @keyframes cloud-move-reverse {
-from {transform: translate(446px,48px);}
-to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
